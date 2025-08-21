@@ -1,6 +1,6 @@
 # 🤝 コントリビューションガイド
 
-Awesome Gemini CLI JP プロジェクトへのご協力、ありがとうございます！
+Gemini CLI Installation Guide プロジェクトへのご協力、ありがとうございます！
 
 ## 📋 貢献の種類
 
@@ -31,8 +31,8 @@ Awesome Gemini CLI JP プロジェクトへのご協力、ありがとうござ�
 
 ### 2. ローカルにクローン
 ```bash
-git clone https://github.com/あなたのユーザー名/awesome-gemini-cli-jp.git
-cd awesome-gemini-cli-jp
+git clone https://github.com/あなたのユーザー名/gemini-cli-installation-guide.git
+cd gemini-cli-installation-guide
 ```
 
 ### 3. 新しいブランチを作成
@@ -78,7 +78,7 @@ git push origin feature/add-new-examples
 ## 📝 ファイル構成
 
 ```
-awesome-gemini-cli-jp/
+gemini-cli-installation-guide/
 ├── README.md                 # メインページ
 ├── docs/                     # ドキュメント
 │   ├── GEMINI_CLI_INSTALLATION_GUIDE.md

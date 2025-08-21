@@ -1,6 +1,6 @@
-# 🤖 Awesome Gemini CLI JP
+# 🤖 Gemini CLI Installation Guide
 
-> Google Gemini CLI の日本語完全ガイド・リソース集
+> Google Gemini CLI の日本語インストールガイド・完全ドキュメント
 
 [![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-Official-4285F4?style=flat-square&logo=google)](https://github.com/google-gemini/gemini-cli)
 [![Language](https://img.shields.io/badge/Language-Japanese-red?style=flat-square)](README.md)
