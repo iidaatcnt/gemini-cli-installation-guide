@@ -1,0 +1,68 @@
+# GitHub Pages設定
+title: "Gemini CLI Installation Guide"
+description: "Google Gemini CLI の日本語インストールガイド・完全ドキュメント"
+url: "https://iidaatcnt.github.io"
+baseurl: "/gemini-cli-installation-guide"
+
+# Jekyll設定
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# プラグイン
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# メタデータ
+author:
+  name: "iidaatcnt"
+  github: "iidaatcnt"
+
+# ソーシャル
+social:
+  name: iidaatcnt
+  links:
+    - "https://github.com/iidaatcnt"
+
+# SEO設定
+google_analytics: false
+lang: ja_JP
+
+# 除外ファイル
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# インクルード設定
+include:
+  - _pages
+
+# コレクション
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# デフォルト設定
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "iidaatcnt"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "docs"
+      type: "docs"
+    values:
+      layout: "doc"
