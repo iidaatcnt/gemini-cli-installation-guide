@@ -29,6 +29,12 @@ description: "Google Gemini CLI の日本語インストールガイド・完全
     <p>5分で始められる最速ガイド</p>
     <a href="docs/GEMINI_CLI_QUICKSTART" class="btn">クイックスタート</a>
   </div>
+
+  <div class="card">
+    <h3>💼 活用事例集</h3>
+    <p>業務効率化の具体的な実例と使い方</p>
+    <a href="docs/USE_CASES" class="btn">活用事例を見る</a>
+  </div>
 </div>
 
 ### 🎯 特徴
@@ -131,8 +137,9 @@ gemini "2024年最新のJavaScriptトレンドは？"
 
 ## 📚 さらに詳しく
 
-### 🎯 コマンド例集
-[基本コマンド例](examples/basic-commands) で実践的な使い方を学べます。
+### 🎯 実践ガイド
+- [💼 活用事例集](docs/USE_CASES) で業務効率化の実例を確認
+- [基本コマンド例](examples/basic-commands) で実践的な使い方を学べます
 
 ### 🤝 コントリビュート
 このプロジェクトをより良くするために、皆様の貢献を歓迎します！  
