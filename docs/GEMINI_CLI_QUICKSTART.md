@@ -3,24 +3,39 @@
 ## 5分でできる！最速インストール
 
 ### 📋 前提条件チェックリスト
-- [ ] パソコンがある（Mac/Windows/Linux）
+- [ ] パソコンがある（**Mac推奨**、Windows対応）
 - [ ] インターネットに接続している
 - [ ] Googleアカウントを持っている
+- [ ] ターミナル（Mac）またはPowerShell（Windows）を開ける
 
 ---
 
 ## ⚡ 3ステップインストール
 
-### 1️⃣ Node.js インストール（1分）
-👉 https://nodejs.org/ から「LTS」版をダウンロード → インストール
+### 1️⃣ ターミナル/PowerShellを開く（30秒）
 
-### 2️⃣ Gemini CLI インストール（30秒）
-ターミナル/コマンドプロンプトを開いて：
+**Mac**: `Command + Space` → 「Terminal」で検索 → Enter  
+**Windows**: スタートメニュー → 「PowerShell」で検索 → クリック
+
+### 2️⃣ Node.js 確認・インストール（1分）
+
+```bash
+node --version
+```
+
+**バージョンが表示される**: OK！次へ  
+**エラーが出る**: https://nodejs.org/ から「LTS」版をダウンロードしてインストール
+
+### 3️⃣ Gemini CLI インストール（30秒）
+以下をコピー&貼り付けして実行：
 ```bash
 npm install -g @google/gemini-cli
 ```
 
-### 3️⃣ 初回起動と認証（30秒）
+**Mac**: `Command+C` → `Command+V` → Enter  
+**Windows**: `Ctrl+C` → 右クリック貼り付け → Enter
+
+### 4️⃣ 初回起動と認証（30秒）
 ```bash
 gemini
 ```
