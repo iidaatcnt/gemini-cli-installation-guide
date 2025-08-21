@@ -17,6 +17,8 @@
 **Mac**: `Command + Space` → 「Terminal」で検索 → Enter  
 **Windows**: スタートメニュー → 「PowerShell」で検索 → クリック
 
+📖 **詳しい手順**: [ターミナル・PowerShell 起動ガイド](./TERMINAL_POWERSHELL_GUIDE.md)
+
 ### 2️⃣ Node.js 確認・インストール（1分）
 
 ```bash
@@ -25,6 +27,8 @@ node --version
 
 **バージョンが表示される**: OK！次へ  
 **エラーが出る**: https://nodejs.org/ から「LTS」版をダウンロードしてインストール
+
+📖 **詳しい手順**: [Node.js バージョン確認・インストールガイド](./NODEJS_VERSION_CHECK.md)
 
 ### 3️⃣ Gemini CLI インストール（30秒）
 以下をコピー&貼り付けして実行：
@@ -187,7 +191,7 @@ npm update -g @google/gemini-cli
 ## 🎓 次のステップ
 
 1. **詳細ガイド**: `GEMINI_CLI_INSTALLATION_GUIDE.md` を読む
-2. **公式ドキュメント**: https://github.com/google-gemini/gemini-cli
+2. **公式ドキュメント**: [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 3. **コミュニティ**: Google AI Community に参加
 
 ---

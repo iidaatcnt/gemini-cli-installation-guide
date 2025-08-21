@@ -156,9 +156,9 @@ gemini "2024年最新のJavaScriptトレンドは？"
 ## 📞 サポート
 
 ### 🔗 関連リンク
-- [Gemini CLI 公式リポジトリ](https://github.com/google-gemini/gemini-cli)
-- [Google AI Developer](https://ai.google.dev/)
-- [Gemini API ドキュメント](https://ai.google.dev/gemini-api)
+- **[Gemini CLI 公式リポジトリ](https://github.com/google-gemini/gemini-cli)** - 最新情報、Issue報告、機能要望
+- [Google AI Developer](https://ai.google.dev/) - AIツールの総合情報
+- [Gemini API ドキュメント](https://ai.google.dev/gemini-api) - APIの詳細仕様
 
 ### ❓ よくある質問
 詳細は各ガイドの「トラブルシューティング」セクションをご覧ください。
